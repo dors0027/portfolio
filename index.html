@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Navidation & Logo -->
+    <nav class="navbar navbar-dark bg-transparent" id="welcomepage">
+        <div class="container-fluid">
+            <button class="button-logo bg-transparent border-0">
+            <img class="navbar-logo" href="#welcomepage" src="images/DDIGITAL LOGO.png" alt="DDIGITAL LOGO">
+            </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="mainmenu offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                <h5 class="menu-title" id="mymenu">Menu</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- main content -->
+    <!-- ILLUSTRATIONS GALLERY FOR **LARGE SCREEN** -->
+    <!-- MAIN PAGE -->
+        <main class="maincontent">
+            <header class="welcome text-white">
+                <h1 class="h1">Welcome</h1>
+            </header>
+            <h2 class="h2 text-white">to my portfolio.</h2>
+        </main>
+        <div class="illustrations text-center">
+            <a href="#myillus" class="view text-white">View Illustrations &darr;</a>
+        </div>
+    <div class="largescreen">    
+        <div id="myillus" class="text-center">
+            <img srcset="images/spiderman480.jpg 480w,
+                        images/spiderman960.jpg 960w,
+                        images/spiderman1440.jpg 1440w"
+                    alt="Spiderman: ATSV Concept Cover" class="spiderman">
+
+            <img srcset="images/themegfinals480.jpg 480w,
+                        images/themegfinals960.jpg 960w,
+                        images/themegfinals1440.jpg 1440w"
+                    alt="The Meg Concept Cover" class="themeg">
+
+            <img srcset="images/themanda480.jpg 480w,
+                        images/themanda960.jpg 960w,
+                        images/themanda1440.jpg 1440w"
+            alt="Spiderman: The Mandalorian Concept Cover" class="mandalorian">
+        </div>
+    </div>
+    <!-- ILLUSTRATIONS CAROUSEL FOR **SMALLER SCREEN** -->
+    <!-- ALSO MAIN PAGE -->
+    <div class="smallerscreen">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/spiderman960.jpg" class="smallspiderman w-100" alt="Spiderman Concert Poster">
+              </div>
+              <div class="carousel-item">
+                <img src="images/themanda960.jpg" class="smallmandalorian w-100" alt="The Mandalorian Concept Poster">
+              </div>
+              <div class="carousel-item">
+                <img src="images/themegfinals960.jpg" class="smallthemeg w-100" alt="The Meg Concept Poster">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+
+
+<!-- footer -->
+<footer class="text-center text-white bg-black">
+    <img src="images/DDIGITAL LOGO.png" alt="Official DDigital Logo" class="logofooter">
+    <p class="footer">&copy; DDIGITAL 2023</p>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

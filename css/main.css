@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+
+/* **SMALL SIZE** */
+
+/* Logo and Navigation Bar */
+.navbar-logo{
+    width:90px;
+    max-width:90px;;
+}
+
+.mainmenu{
+    background-color:rgba(42, 42, 42, 0.32)
+}
+
+#mymenu{
+    color:rgba(255, 255, 255, 0.642);
+    border-bottom:solid;
+    border-color: rgba(255, 255, 255, 0.642);
+}
+
+.navbar-toggler{
+    margin-right:40px;
+}
+
+.navbar-logo{
+    margin-left:15px;
+}
+
+/* Main Content */
+
+body{
+    background-image:linear-gradient(to top, rgb(22, 25, 75), rgb(5, 5, 5));
+    height: auto;
+}
+
+main{
+    margin-top:50px;
+    text-align: center;
+}
+
+.h1{
+    font-size:70px;
+}
+
+.view{
+    visibility:hidden;
+}
+
+#carouselExample{
+    width:70%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom:50px;
+}
+
+.largescreen{
+    display:none;
+}
+
+/* footer */
+.logofooter{
+    width: 90px;
+    max-width:90px;
+    padding-bottom:7px;
+    padding-top:30px;
+}
+
+.footer{
+    padding-bottom:30px;
+}
+
+/* **DEFAULT SIZY** */
+
+@media screen and (min-width:800px) {
+    .navbar-logo{
+        width:145px;
+        max-width:145px;
+        margin-left:15px;
+    }
+
+    .navbar-toggler{
+        margin-right:40px;
+    }    
+
+    .mainmenu{
+        background-color:rgba(42, 42, 42, 0.32)
+    }
+    
+    #mymenu{
+        color:rgba(255, 255, 255, 0.642);
+        border-bottom:solid;
+        border-color: rgba(255, 255, 255, 0.642);
+    }
+    
+    /* Main Content */
+    
+    body{
+        background-image:linear-gradient(to top, rgb(22, 25, 75), rgb(5, 5, 5));
+        height: auto;
+    }
+    
+    main{
+        margin-top:50px;
+        text-align: justify;
+        margin-left:72px;
+    }
+    
+    .h1{
+        font-size:160px;
+    }
+
+    .h2{
+        font-size:35px;
+        margin-left:20px; 
+        margin-bottom:270px; 
+    }
+
+    .view{
+        visibility: visible;
+        font-size: 48px;
+        text-decoration: none;
+        font-weight:500;
+    }
+
+    .view:hover{
+        text-decoration: underline;
+    }
+
+    img{
+        width:30%;
+        max-width:100%;
+        margin:5px;
+        margin-bottom:20px;
+    }
+
+    .mandalorian, .spiderman, .themeg{
+        margin-top:90px;
+    }
+
+    .smallerscreen{
+        display: none;
+    }
+
+    .largescreen{
+        display: block;
+    }
+
+    /* footer */
+    .logofooter{
+        width:150px;
+        max-width:150px;
+        padding-bottom:7px;
+        padding-top:30px;
+    }
+    
+    .footer{
+        padding-bottom:30px;
+    }
+}
