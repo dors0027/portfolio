@@ -48,6 +48,25 @@ main{
     visibility:hidden;
 }
 
+.back2top{
+    display:none;
+}
+
+
+.menuclick{
+    font-size:70px;
+    font-weight:500;
+    margin-top:315px;
+    margin-right:33px;
+    align-items:flex-end;
+}
+
+.x{
+    font-size:22px;
+    margin-top:25px;
+    margin-left:250px;
+}
+
 #carouselExample{
     width:70%;
     margin-right:auto;
@@ -67,7 +86,7 @@ main{
     padding-top:30px;
 }
 
-.footer{
+footer{
     padding-bottom:30px;
 }
 
@@ -110,15 +129,15 @@ main{
     .menuclick{
         font-size:70px;
         font-weight:500;
-        margin-top:315px;
+        margin-top:290px;
         margin-right:33px;
         align-items:flex-end;
     }
 
     .x{
         font-size:22px;
-        margin-top:55px;
-        margin-left:112px;
+        margin-top:57px;
+        margin-left:114px;
     }
     
     .h1{
@@ -177,7 +196,8 @@ main{
     }
 
     .back2top{
-        text-align: center;
+        display:block;
+        text-align:center;
     }
 
     /* footer */

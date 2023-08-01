@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+
+/* **SMALL SIZE** */
+
+/* Logo and Navigation Bar */
+.navbar-logo{
+    width:90px;
+    max-width:90px;;
+}
+
+.mainmenu{
+    background-color:rgba(42, 42, 42, 0.32)
+}
+
+#mymenu{
+    color:rgba(255, 255, 255, 0.642);
+    border-bottom:solid;
+    border-color: rgba(255, 255, 255, 0.642);
+}
+
+.navbar-toggler{
+    margin-right:40px;
+}
+
+.navbar-logo{
+    margin-left:15px;
+}
+
+.menuclick{
+    font-size:30px;
+    font-weight:500;
+    margin-top:80px;
+    margin-right:19px;
+    align-items:flex-end;
+}
+
+.x{
+    font-size:22px;
+    margin-top:25px;
+    margin-left:250px;
+}
+
+/* Main Content */
+
+body{
+    background-image:linear-gradient(to top, rgb(22, 25, 75), rgb(5, 5, 5));
+    height: auto;
+}
+
+.kevynpicture{
+    width:30%;
+    border-radius:10px;
+    margin-top:50px;
+    margin-bottom:10px;
+}
+
+.myinfo{
+    width:60%;
+}
+
+.myimgme{
+    text-align: center;
+}
+
+.h1{
+    text-align: center;
+    font-size:60px;
+}
+
+p{
+    text-align: center;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom:40px;
+    font-size:22px;
+}
+
+/* footer */
+.logofooter{
+    width: 90px;
+    max-width:90px;
+    padding-bottom:7px;
+    padding-top:30px;
+}
+
+footer{
+    padding-bottom:30px;
+}
+
+@media screen and (min-width:800px) {
+
+    .navbar-logo{
+        width:145px;
+        max-width:145px;
+        margin-left:15px;
+    }
+
+    .navbar-toggler{
+        margin-right:40px;
+    }    
+
+    .mainmenu{
+        background-color:rgba(42, 42, 42, 0.32)
+    }
+    
+    #mymenu{
+        color:rgba(255, 255, 255, 0.642);
+        border-bottom:solid;
+        border-color: rgba(255, 255, 255, 0.642);
+    }
+
+    .menuclick{
+        font-size:70px;
+        font-weight:500;
+        margin-top:274px;
+        margin-right:33px;
+        align-items:flex-end;
+    }
+
+    .x{
+        font-size:22px;
+        margin-top:45px;
+        margin-left:116px;
+    }
+
+    .kevynpicture{
+        width:15%;
+        border-radius:10px;
+        margin-top:20px;
+        margin-bottom:5px;
+    }
+    
+    .myimgme{
+        text-align: center;
+    }
+
+    .h1{
+        text-align:center;
+        font-size:90px;
+    }
+    
+    .about p{
+        text-align: center;
+        margin-right:auto;
+        margin-left:auto;
+        margin-bottom:70px;
+        width:50%;
+        font-size:28px;
+    }
+
+    /* footer */
+    .logofooter{
+        width:150px;
+        max-width:150px;
+        padding-bottom:7px;
+        padding-top:30px;
+    }
+    
+    footer{
+        margin-top:35px;
+        padding-bottom:20px;
+    }
+}

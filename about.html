@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio About Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+    <!-- Navigation & Logo -->
+    <nav class="navbar navbar-dark bg-transparent" id="welcomepage">
+        <div class="container-fluid">
+            <button class="button-logo bg-transparent border-0">
+            <img class="navbar-logo" href="#welcomepage" src="images/DDIGITAL LOGO.png" alt="DDIGITAL LOGO">
+            </button>
+            <button class="menubars border-0 navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="mainmenu bg-transparent border-0 offcanvas offcanvas-end" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <button type="button" class="x btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <div class="popup offcanvas-body">
+                    <ul class="menuclick color-white navbar-nav ">
+                        <li class="homepage nav-item">
+                        <a class="homelink nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="aboutpage nav-item">
+                            <a class="aboutlink nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="contactpage nav-item">
+                            <a class="contactlink nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>   
+<!-- about me information -->
+<div class="myimgme">
+    <img srcset="images/myimg320.png 320w,
+                 images/myimg640.png 640w,
+                 images/myimg960.png 960w"
+    alt="My image" class="kevynpicture">
+</div>
+<div class="about text-white">
+    <h1 class="h1">About Me</h1>
+    <p class="myinfo">Welcome to my portfolio website, my name is Kevyn Dorsainvil. I’m a 19 year old college student currently attending Algonquin College in the IMD program.</p>
+</div>
+
+<!-- footer -->
+<footer class="text-center text-white bg-black">
+    <img src="images/DDIGITAL LOGO.png" alt="Official DDigital Logo" class="logofooter">
+    <p class="footerp">&copy; DDIGITAL 2023</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
