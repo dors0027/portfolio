@@ -71,7 +71,7 @@ main{
     padding-bottom:30px;
 }
 
-/* **DEFAULT SIZY** */
+/* **DEFAULT SIZE** */
 
 @media screen and (min-width:800px) {
     .navbar-logo{
@@ -106,6 +106,20 @@ main{
         text-align: justify;
         margin-left:72px;
     }
+
+    .menuclick{
+        font-size:70px;
+        font-weight:500;
+        margin-top:315px;
+        margin-right:33px;
+        align-items:flex-end;
+    }
+
+    .x{
+        font-size:22px;
+        margin-top:55px;
+        margin-left:112px;
+    }
     
     .h1{
         font-size:160px;
@@ -128,6 +142,10 @@ main{
         text-decoration: underline;
     }
 
+    .illustrate{
+        margin-bottom:14px;
+    }
+
     img{
         width:30%;
         max-width:100%;
@@ -147,6 +165,21 @@ main{
         display: block;
     }
 
+    .backup{
+        border:solid;
+        border-radius:100px;
+        padding-top:14px;
+        padding-bottom:14px;
+        padding-left:20px;
+        padding-right:20px;
+        text-decoration: none;
+        font-size: 30px;
+    }
+
+    .back2top{
+        text-align: center;
+    }
+
     /* footer */
     .logofooter{
         width:150px;
@@ -155,7 +188,10 @@ main{
         padding-top:30px;
     }
     
-    .footer{
-        padding-bottom:30px;
+    footer{
+        margin-top:35px;
+        padding-bottom:20px;
     }
 }
+
+
