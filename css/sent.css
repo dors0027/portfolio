@@ -67,7 +67,7 @@ main{
 }
 
 /* contact form */
-.myform{
+.thanks{
     max-width:800px;
     width:400px;
     margin-left:auto;
@@ -85,49 +85,28 @@ main{
     padding-right:30px;
 }
 
-h3 {
+h1 {
     color: rgba(255, 255, 255, 0.684);
+    font-size: 65px;
+    margin-bottom:30px;
 }
 
-.newsletter{
-    color: rgba(255, 255, 255, 0.281);
-    text-align: center;
-    margin-top:30px;
-}
-
-.checkbox{
-    background-color:black;
-}
-
-.button{
-    margin-top:50px;
-    list-style-type: none;  
-    margin-left:20%;
-    transition:all .5s;
-}
-
-.button:hover{
-    transform: scale(1.05);
-    transition-duration: .2s;
+h2{
+    color: rgba(255, 255, 255, 0.684);
+    margin-bottom:100px;
 }
 
 ul li{
     list-style-type: none;
 }
 
-.sendbutton{
-    text-decoration: none;
+.tocontact{
+    text-decoration: underline;
     color: white;
-    font-size:19px;
-    border:solid;
-    border-radius:80px;
-    border-color: white;
-    padding-top:18px;
-    padding-bottom:18px;
-    padding-left:45px;
-    padding-right:45px;
-    background-color: black;
+    font-size:23px;
+    margin-left:35%;
 }
+
 
 /* footer */
 .logofooter{
@@ -141,9 +120,9 @@ footer{
     padding-bottom:30px;
 }
 
-@media screen and (min-width:800px) {
-
-    .myform{
+@media screen and (min-width:800px){
+    
+    .thanks{
         max-width:800px;
         width:800px;
         margin-left:auto;
@@ -156,53 +135,31 @@ footer{
         border-width:1px;
         background-color: rgba(0, 0, 0, 0.383);
         padding-top:50px;
-        padding-bottom:50px;
+        padding-bottom:45px;
         padding-left:30px;
         padding-right:30px;
     }
 
-/* news letter and send button */
-    .newsletter{
-        color: rgba(255, 255, 255, 0.281);
-        text-align: center;
-        margin-top:30px;
+    h1 {
+        color: rgba(255, 255, 255, 0.684);
+        font-size: 80px;
+        margin-left:20px;
+        margin-bottom:35px;
     }
     
-    .checkbox{
-        background-color:black;
-    }
-    
-    .button{
-        margin-top:50px;
-        list-style-type: none;  
-        margin-left:35%;
-        transition:none;
-    }
-    
-    .button:hover{
-        transform: none;
-        transition-duration: none;
-        border-color: black;
+    h2{
+        color: rgba(255, 255, 255, 0.684);
+        font-size:49px;
+        margin-left:15px;
+        margin-bottom:148px;
     }
 
-    ul li{
-        list-style-type: none;
-    }
-    
-    .sendbutton{
-        text-decoration: none;
+    .tocontact{
+        text-decoration: underline;
         color: white;
-        font-size:19px;
-        border:solid;
-        border-radius:80px;
-        border-color: white;
-        padding-top:18px;
-        padding-bottom:18px;
-        padding-left:45px;
-        padding-right:45px;
-        background-color: black;
+        font-size:27px;
+        margin-left:43%;
     }
-    
 
     /* footer */
     .logofooter{
