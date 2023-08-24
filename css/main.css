@@ -48,6 +48,10 @@ main{
     visibility:hidden;
 }
 
+.snowfall, .reeves, .mandalorian /*top 3 center images for margin-top */ {
+    margin-top:90px;
+}
+
 .back2top{
     display:none;
 }
@@ -172,8 +176,8 @@ footer{
         margin-bottom:20px;
     }
 
-    .mandalorian, .spiderman, .themeg{
-        margin-top:90px;
+    .mandalorian, .spiderman, .themeg, .snowfall, .reeves{
+        margin-bottom:10px;
     }
 
     .smallerscreen{
@@ -198,6 +202,7 @@ footer{
     .back2top{
         display:block;
         text-align:center;
+        margin-top:50px;
     }
 
     /* footer */
