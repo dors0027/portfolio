@@ -48,7 +48,7 @@ main{
     visibility:hidden;
 }
 
-.snowfall, .reeves, .denzel /*top 3 center images for margin-top */ {
+.kanan, .reeves, .denzel /*top 3 center images for margin-top */ {
     margin-top:90px;
 }
 
@@ -176,7 +176,7 @@ footer{
         margin-bottom:20px;
     }
 
-    .mandalorian, .spiderman, .themeg, .snowfall, .reeves, .denzel{
+    .mandalorian, .spiderman, .themeg, .snowfall, .reeves, .denzel, .kanan{
         margin-bottom:10px;
     }
 
